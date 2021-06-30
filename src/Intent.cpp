@@ -20,7 +20,7 @@ string Intent::recognize(){
 	string result = "Intent: Get";
 	for(auto x:output){
 		result += " ";
-		result += x;
+		result += static_cast<char>(x[0]-'a'+'A') + x.substr(1);
 	}
 	return result;
 }
