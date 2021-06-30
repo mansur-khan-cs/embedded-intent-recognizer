@@ -2,9 +2,13 @@
 
 using namespace std;
 
+Intent::Intent(){}
+
 Intent::Intent(vector<string> in):input(in){}
 
-
+void Intent::setIntent(std::vector<std::string> in){
+	this->input = in;
+}
 
 string Intent::recognize(){
 

@@ -2,12 +2,12 @@
 #include "catch.h"
 #include "Intent.h"
 
-TEST_CASE( "RecognizeIntent") {
-      
-
+TEST_CASE( "RecognizeIntent") {      
+    Intent intent;  
+    
     SECTION("Should get weather intent"){
         std::vector<std::string> v = {"What", "is", "the", "weather", "like", "today?"};
-        Intent intent(v);
+        intent.setIntent(v);
         REQUIRE( intent.recognize() ==  "Intent: Get Weather");
-    }      
+    }
 }
