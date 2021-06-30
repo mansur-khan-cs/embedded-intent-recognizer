@@ -23,3 +23,16 @@ Advanced:
 Very Advanced:
 
 * A lot of plus points if it can handle different semantic variations.
+
+
+# Build in Linux: 
+* mkdir build && cd build &&  cmake .. && make
+
+
+# Build in windows powershell: 
+* mkdir build; cd build; cmake .. -G "Unix Makefiles"; make
+* or mkdir build; cd build; cmake ..; cmake --build .; cd Debug
+
+# Run Application
+* ./intentRecognizer What is the weather like in Frankfurt today?
+
