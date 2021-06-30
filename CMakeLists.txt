@@ -1,11 +1,8 @@
 cmake_minimum_required(VERSION 3.19.0)
 project(embedded-intent-recognizer)
 
-# Add C++17 standard
-set(CMAKE_CXX_STANDARD 17)
-if(MSVC)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17")
-endif(MSVC)
+# Add C++20 standard
+set(CMAKE_CXX_STANDARD 20)
 
 
 include_directories(include)
