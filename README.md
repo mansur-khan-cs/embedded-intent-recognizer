@@ -26,13 +26,13 @@ Very Advanced:
 
 
 # Build in Linux: 
-* mkdir build && cd build &&  cmake .. && make
+* `mkdir build && cd build &&  cmake .. && make`
 
 
 # Build in windows powershell: 
-* mkdir build; cd build; cmake .. -G "Unix Makefiles"; make
-* or mkdir build; cd build; cmake ..; cmake --build .; cd Debug
+* `mkdir build; cd build; cmake .. -G "Unix Makefiles"; make`
+* or `mkdir build; cd build; cmake ..; cmake --build .; cd Debug`
 
 # Run Application
-* ./intentRecognizer What is the weather like in Frankfurt today?
+* `./intentRecognizer What is the weather like in Frankfurt today?`
 
