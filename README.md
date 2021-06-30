@@ -36,3 +36,6 @@ Very Advanced:
 # Run Application
 * `./intentRecognizer What is the weather like in Frankfurt today?`
 
+# Run Unit test
+* `.\intentRecognizerTest.exe`
+
